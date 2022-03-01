@@ -1,0 +1,215 @@
+@media only screen and (min-width: 0px) {
+  body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0px;
+    cursor: context-menu;
+  }
+  header {
+    background: url(images/bg-header-desktop.png) no-repeat;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  .button_link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 97%;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .logo {
+    width: 10%;
+    display: block;
+    margin: auto;
+  }
+  .logo_c {
+    width: 17%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  i {
+    color: rgb(83, 83, 83);
+  }
+  .social_media {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    line-height: 35px;
+  }
+  p {
+    text-align: center;
+    color: rgb(184, 184, 184);
+    font-size: 13px;
+    line-height: 20px;
+  }
+  button {
+    width: 97%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: 0 0.5% 25px;
+    line-height: 50px;
+  }
+  .main_title {
+    margin: 70px 15%;
+  }
+  .ios_button {
+    background: rgb(61, 194, 128);
+    box-shadow: 0 5px 0 0 rgb(53, 165, 109);
+  }
+  .mac_button {
+    background: rgb(76, 79, 236);
+    box-shadow: 0 5px 0 0 rgb(55, 57, 187);
+  }
+  .services {
+    margin: 100px 20%;
+  }
+  .services_title {
+    margin: 100px 20%;
+  }
+  .nav_title {
+    margin: 200px 17% 40px;
+  }
+  img {
+    width: 90%;
+    display: block;
+    margin: 0px 3.4%;
+  }
+  .logo_list {
+    width: 30%;
+    display: block;
+    margin: 100px auto;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .footer {
+    border: none;
+    background: rgb(247, 247, 247);
+    padding: 70px 20px;
+    width: 70%;
+    margin: auto;
+  }
+  h3 {
+    text-align: center;
+    color: rgb(148, 148, 148);
+  }
+}
+@media only screen and (min-width: 992px) {
+  body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+  }
+  .first {
+    padding-top: 20px;
+    width: 45px;
+  }
+  .title {
+    font-size: 12px;
+    width: 325px;
+    margin: auto;
+  }
+  .head_button,
+  .footer_button {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    width: 180px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    margin: 20px 10px;
+  }
+  .main_title h2,
+  .main_title p {
+    font-size: 10px;
+    width: 350px;
+    margin: auto;
+  }
+  .pc_pic {
+    width: 45%;
+    height: 350px;
+    margin: 0 0 0 -2%;
+    float: left;
+  }
+  .services_title {
+    font-size: 8px;
+    display: inline;
+    float: right;
+    width: 50%;
+    margin: 0 2%;
+    padding: 0 0 50px;
+  }
+  .services_title h2,
+  .services_title p {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 50px;
+    width: 87%;
+  }
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .devices_pic {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .services {
+    display: inline-block;
+    width: 22%;
+    margin: 0 5.4% 150px;
+  }
+  .logo_list {
+    width: 10%;
+    display: inline-block;
+    margin: 0 4.7% 150px;
+  }
+  .footer_download_text {
+    width: 420px;
+    display: block;
+    margin: auto;
+  }
+  .footer {
+    width: 96%;
+    height: 70px;
+  }
+  .footer .logo_c,
+  .footer_link,
+  .social_media {
+    margin: 0 8%;
+  }
+  .footer .logo_c,
+  .footer_link,
+  .footer_link a,
+  .social_media {
+    display: inline-block;
+  }
+  div .logo_c {
+    width: 5%;
+  }
+  .footer_link a {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1% 5% 1% 0;
+    font-size: 11px;
+  }
+  .social_media i {
+    font-size: 20px;
+    margin: 0 0 15px 14px;
+  }
+}
